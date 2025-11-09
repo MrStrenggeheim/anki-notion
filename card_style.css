@@ -1,0 +1,25 @@
+/* Custom Anki Card Styling */
+
+body {
+    white-space: normal;
+}
+
+.card {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+.front {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Notion CSS scoped to back content */
+.back {
+    text-align: left;
+    margin: 1em;
+    padding: 1em;
+}
